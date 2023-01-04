@@ -5,24 +5,32 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"EHK1","server":"dl-hk1.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-hk.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EHK2","server":"dl-hk2.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-hk.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EHK3","server":"dl-hk3.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-hk.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EJP1","server":"dl-jp1.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-jp.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EJP2","server":"dl-jp2.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-jp.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EJP3","server":"dl-jp3.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-jp.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EJP4","server":"dl-jp4.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-jp.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EKR1","server":"dl-kr1.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-ockrsl.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EKR2","server":"dl-kr2.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-ockrcc.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"ESG1","server":"dl-sg1.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-sg.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"ESG2","server":"dl-sg2.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-sg.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"ESG3","server":"dl-sg3.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-sg.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"ESG4","server":"dl-sg4.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-sg.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EUS1","server":"dl-us1.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-us.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EUS2","server":"dl-us2.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-us.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EUS3","server":"dl-us3.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-us.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EUK1","server":"dl-eu1.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-uk.efyunpan.com","network":"tcp"}
-  - {"type":"trojan","name":"EUK2","server":"dl-eu2.efyunpan.com","port":443,"password":"32aa2684-cb53-4301-aa17-132fc49a268d","udp":true,"skip-cert-verify":true,"sni":"data-uk2.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EHKT1","server":"dl-hk1.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-hk.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EHKT2","server":"dl-hk2.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-hk.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EHKT3","server":"dl-hk3.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-hk.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EJPT1","server":"dl-jp1.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-jp.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EJPT2","server":"dl-jp2.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-jp.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EJPT3","server":"dl-jp3.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-jp.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EJPT4","server":"dl-jp4.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-jp.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EKRV1","server":"dl-kr1.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-ockrsl.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EKRV2","server":"dl-kr2.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-ockrcc.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"ESGV1","server":"dl-sg1.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-sg.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"ESGV2","server":"dl-sg2.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-sg.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"ESGV3","server":"dl-sg3.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-sg.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"ESGV4","server":"dl-sg4.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-sg.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EUSV1","server":"dl-us1.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-us.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EUSV2","server":"dl-us2.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-us.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EUSV3","server":"dl-us3.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-us.efyunpan.com","network":"tcp"}
+  - {"type":"trojan","name":"EUSV4","server":"dl-us4.efyunpan.com","port":443,"password":"b3991564-ac1c-47a4-88ca-9bba7637886c","udp":true,"skip-cert-verify":true,"sni":"data-us.efyunpan.com","network":"tcp"}
+  - {"type":"vmess","name":"WZJPH1","ws-opts":{"path":"/m1"},"server":"v-aws-tk-1.heima-bot.tech","port":"8881","uuid":"5bcf1d93-b390-497a-b42b-50e0d90c1965","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"WZJPH2","ws-opts":{"path":"/m2"},"server":"v-aws-tk-2.heima-bot.tech","port":"8882","uuid":"5bcf1d93-b390-497a-b42b-50e0d90c1965","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"WZJPH3","ws-opts":{"path":"/m3"},"server":"v-aws-tk-3.heima-bot.tech","port":"8881","uuid":"5bcf1d93-b390-497a-b42b-50e0d90c1965","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"WZJPH4","ws-opts":{"path":"/m3"},"server":"v-aws-tk-4.heima-bot.tech","port":"8882","uuid":"5bcf1d93-b390-497a-b42b-50e0d90c1965","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"WZKRH1","ws-opts":{"path":"/m1"},"server":"v-aws-sel-1.heima-bot.tech","port":"8881","uuid":"5bcf1d93-b390-497a-b42b-50e0d90c1965","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"WZKRH2","ws-opts":{"path":"/m2"},"server":"v-aws-sel-2.heima-bot.tech","port":"8882","uuid":"5bcf1d93-b390-497a-b42b-50e0d90c1965","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"WZKRH3","ws-opts":{"path":"/m3"},"server":"v-aws-sel-3.heima-bot.tech","port":"8881","uuid":"5bcf1d93-b390-497a-b42b-50e0d90c1965","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"WZKRH4","ws-opts":{"path":"/m3"},"server":"v-aws-sel-4.heima-bot.tech","port":"8882","uuid":"5bcf1d93-b390-497a-b42b-50e0d90c1965","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"WZSGH1","ws-opts":{"path":"/m3","headers":{"host":"do-sg-1.heima-bot.tech"}},"server":"172.64.150.81","port":"8080","uuid":"5bcf1d93-b390-497a-b42b-50e0d90c1965","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"WZSGC1","ws-opts":{"path":"/xvod/7f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live02.hlzuifv.cn"}},"server":"live02.suijiceshi.xyz","port":"2052","uuid":"b46b7314-6aa8-48cd-b72b-1338044c6552","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"WZSGC2","ws-opts":{"path":"/xvod/7f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live02.hlzuifv.cn"}},"server":"live02.suijiceshi.xyz","port":"2052","uuid":"b46b7314-6aa8-48cd-b72b-1338044c6552","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"WZSGC3","ws-opts":{"path":"/xvod/7f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live06.hlzuifv.cn"}},"server":"live06.suijiceshi.xyz","port":"2052","uuid":"b46b7314-6aa8-48cd-b72b-1338044c6552","alterId":"0","cipher":"auto","network":"ws"}
@@ -37,8 +45,6 @@ proxies:
   - {"type":"vmess","name":"WZHKC2","ws-opts":{"path":"/xbov/6f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live12.hlzuifv.cn"}},"server":"live12.suijiceshi.xyz","port":"2052","uuid":"b46b7314-6aa8-48cd-b72b-1338044c6552","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"WZHKC3","ws-opts":{"path":"/xbov/6f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live12.hlzuifv.cn"}},"server":"live12.suijiceshi.xyz","port":"2052","uuid":"b46b7314-6aa8-48cd-b72b-1338044c6552","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"WZHKC4","ws-opts":{"path":"/xbov/6f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live-002.hlzuifv.cn"}},"server":"m247hk.suijiceshi.xyz","port":"2052","uuid":"b46b7314-6aa8-48cd-b72b-1338044c6552","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"WZUSC1","ws-opts":{"path":"/xbov/6f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live07.hlzuifv.cn"}},"server":"live07.suijiceshi.xyz","port":"8080","uuid":"b46b7314-6aa8-48cd-b72b-1338044c6552","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"WZUSC2","ws-opts":{"path":"/xbov/6f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts","headers":{"host":"live07.hlzuifv.cn"}},"server":"live07.suijiceshi.xyz","port":"8080","uuid":"b46b7314-6aa8-48cd-b72b-1338044c6552","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"ss","name":"NVNS1(AndroidX)","server":"iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz","port":12185,"cipher":"aes-128-gcm","password":"b46b7314-6aa8-48cd-b72b-1338044c6552"}
   - {"type":"ss","name":"NVNS2(AndroidX)","server":"iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz","port":15500,"cipher":"aes-128-gcm","password":"b46b7314-6aa8-48cd-b72b-1338044c6552"}
   - {"type":"ss","name":"NTHS1(AndroidX)","server":"iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz","port":23654,"cipher":"aes-128-gcm","password":"b46b7314-6aa8-48cd-b72b-1338044c6552"}
@@ -53,32 +59,40 @@ proxies:
   - {"type":"vmess","name":"WZHKF2","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"hk2.sanfen001.pics","port":"443","uuid":"3bb12e64-559a-45ab-9a4e-b262651f53a1","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"WZHKF3","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"hk3.sanfen001.pics","port":"443","uuid":"3bb12e64-559a-45ab-9a4e-b262651f53a1","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"WZHKF4","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"hk4.sanfen001.pics","port":"443","uuid":"3bb12e64-559a-45ab-9a4e-b262651f53a1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"WZSGF1","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"sg1.sanfen001.pics","port":"2003","uuid":"3bb12e64-559a-45ab-9a4e-b262651f53a1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"WZSGF2","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"sg2.sanfen001.pics","port":"2005","uuid":"3bb12e64-559a-45ab-9a4e-b262651f53a1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"WZKRF1","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"kr1.sanfen001.pics","port":"443","uuid":"3bb12e64-559a-45ab-9a4e-b262651f53a1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"WZKRF2","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"kr2.sanfen001.pics","port":"443","uuid":"3bb12e64-559a-45ab-9a4e-b262651f53a1","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - EHK1
-      - EHK2
-      - EHK3
-      - EJP1
-      - EJP2
-      - EJP3
-      - EJP4
-      - EKR1
-      - EKR2
-      - ESG1
-      - ESG2
-      - ESG3
-      - ESG4
-      - EUS1
-      - EUS2
-      - EUS3
-      - EUK1
-      - EUK2
+      - EHKT1
+      - EHKT2
+      - EHKT3
+      - EJPT1
+      - EJPT2
+      - EJPT3
+      - EJPT4
+      - EKRV1
+      - EKRV2
+      - ESGV1
+      - ESGV2
+      - ESGV3
+      - ESGV4
+      - EUSV1
+      - EUSV2
+      - EUSV3
+      - EUSV4
+      - WZJPH1
+      - WZJPH2
+      - WZJPH3
+      - WZJPH4
+      - WZKRH1
+      - WZKRH2
+      - WZKRH3
+      - WZKRH4
+      - WZSGH1
       - WZSGC1
       - WZSGC2
       - WZSGC3
@@ -93,8 +107,6 @@ proxy-groups:
       - WZHKC2
       - WZHKC3
       - WZHKC4
-      - WZUSC1
-      - WZUSC2
       - NVNS1(AndroidX)
       - NVNS2(AndroidX)
       - NTHS1(AndroidX)
@@ -109,32 +121,40 @@ proxy-groups:
       - WZHKF2
       - WZHKF3
       - WZHKF4
-      - WZSGF1
-      - WZSGF2
+      - WZKRF1
+      - WZKRF2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - EHK1
-      - EHK2
-      - EHK3
-      - EJP1
-      - EJP2
-      - EJP3
-      - EJP4
-      - EKR1
-      - EKR2
-      - ESG1
-      - ESG2
-      - ESG3
-      - ESG4
-      - EUS1
-      - EUS2
-      - EUS3
-      - EUK1
-      - EUK2
+      - EHKT1
+      - EHKT2
+      - EHKT3
+      - EJPT1
+      - EJPT2
+      - EJPT3
+      - EJPT4
+      - EKRV1
+      - EKRV2
+      - ESGV1
+      - ESGV2
+      - ESGV3
+      - ESGV4
+      - EUSV1
+      - EUSV2
+      - EUSV3
+      - EUSV4
+      - WZJPH1
+      - WZJPH2
+      - WZJPH3
+      - WZJPH4
+      - WZKRH1
+      - WZKRH2
+      - WZKRH3
+      - WZKRH4
+      - WZSGH1
       - WZSGC1
       - WZSGC2
       - WZSGC3
@@ -149,8 +169,6 @@ proxy-groups:
       - WZHKC2
       - WZHKC3
       - WZHKC4
-      - WZUSC1
-      - WZUSC2
       - NVNS1(AndroidX)
       - NVNS2(AndroidX)
       - NTHS1(AndroidX)
@@ -165,32 +183,40 @@ proxy-groups:
       - WZHKF2
       - WZHKF3
       - WZHKF4
-      - WZSGF1
-      - WZSGF2
+      - WZKRF1
+      - WZKRF2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EHK1
-      - EHK2
-      - EHK3
-      - EJP1
-      - EJP2
-      - EJP3
-      - EJP4
-      - EKR1
-      - EKR2
-      - ESG1
-      - ESG2
-      - ESG3
-      - ESG4
-      - EUS1
-      - EUS2
-      - EUS3
-      - EUK1
-      - EUK2
+      - EHKT1
+      - EHKT2
+      - EHKT3
+      - EJPT1
+      - EJPT2
+      - EJPT3
+      - EJPT4
+      - EKRV1
+      - EKRV2
+      - ESGV1
+      - ESGV2
+      - ESGV3
+      - ESGV4
+      - EUSV1
+      - EUSV2
+      - EUSV3
+      - EUSV4
+      - WZJPH1
+      - WZJPH2
+      - WZJPH3
+      - WZJPH4
+      - WZKRH1
+      - WZKRH2
+      - WZKRH3
+      - WZKRH4
+      - WZSGH1
       - WZSGC1
       - WZSGC2
       - WZSGC3
@@ -205,8 +231,6 @@ proxy-groups:
       - WZHKC2
       - WZHKC3
       - WZHKC4
-      - WZUSC1
-      - WZUSC2
       - NVNS1(AndroidX)
       - NVNS2(AndroidX)
       - NTHS1(AndroidX)
@@ -221,31 +245,39 @@ proxy-groups:
       - WZHKF2
       - WZHKF3
       - WZHKF4
-      - WZSGF1
-      - WZSGF2
+      - WZKRF1
+      - WZKRF2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - EHK1
-      - EHK2
-      - EHK3
-      - EJP1
-      - EJP2
-      - EJP3
-      - EJP4
-      - EKR1
-      - EKR2
-      - ESG1
-      - ESG2
-      - ESG3
-      - ESG4
-      - EUS1
-      - EUS2
-      - EUS3
-      - EUK1
-      - EUK2
+      - EHKT1
+      - EHKT2
+      - EHKT3
+      - EJPT1
+      - EJPT2
+      - EJPT3
+      - EJPT4
+      - EKRV1
+      - EKRV2
+      - ESGV1
+      - ESGV2
+      - ESGV3
+      - ESGV4
+      - EUSV1
+      - EUSV2
+      - EUSV3
+      - EUSV4
+      - WZJPH1
+      - WZJPH2
+      - WZJPH3
+      - WZJPH4
+      - WZKRH1
+      - WZKRH2
+      - WZKRH3
+      - WZKRH4
+      - WZSGH1
       - WZSGC1
       - WZSGC2
       - WZSGC3
@@ -260,8 +292,6 @@ proxy-groups:
       - WZHKC2
       - WZHKC3
       - WZHKC4
-      - WZUSC1
-      - WZUSC2
       - NVNS1(AndroidX)
       - NVNS2(AndroidX)
       - NTHS1(AndroidX)
@@ -276,31 +306,39 @@ proxy-groups:
       - WZHKF2
       - WZHKF3
       - WZHKF4
-      - WZSGF1
-      - WZSGF2
+      - WZKRF1
+      - WZKRF2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - EHK1
-      - EHK2
-      - EHK3
-      - EJP1
-      - EJP2
-      - EJP3
-      - EJP4
-      - EKR1
-      - EKR2
-      - ESG1
-      - ESG2
-      - ESG3
-      - ESG4
-      - EUS1
-      - EUS2
-      - EUS3
-      - EUK1
-      - EUK2
+      - EHKT1
+      - EHKT2
+      - EHKT3
+      - EJPT1
+      - EJPT2
+      - EJPT3
+      - EJPT4
+      - EKRV1
+      - EKRV2
+      - ESGV1
+      - ESGV2
+      - ESGV3
+      - ESGV4
+      - EUSV1
+      - EUSV2
+      - EUSV3
+      - EUSV4
+      - WZJPH1
+      - WZJPH2
+      - WZJPH3
+      - WZJPH4
+      - WZKRH1
+      - WZKRH2
+      - WZKRH3
+      - WZKRH4
+      - WZSGH1
       - WZSGC1
       - WZSGC2
       - WZSGC3
@@ -315,8 +353,6 @@ proxy-groups:
       - WZHKC2
       - WZHKC3
       - WZHKC4
-      - WZUSC1
-      - WZUSC2
       - NVNS1(AndroidX)
       - NVNS2(AndroidX)
       - NTHS1(AndroidX)
@@ -331,31 +367,39 @@ proxy-groups:
       - WZHKF2
       - WZHKF3
       - WZHKF4
-      - WZSGF1
-      - WZSGF2
+      - WZKRF1
+      - WZKRF2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - EHK1
-      - EHK2
-      - EHK3
-      - EJP1
-      - EJP2
-      - EJP3
-      - EJP4
-      - EKR1
-      - EKR2
-      - ESG1
-      - ESG2
-      - ESG3
-      - ESG4
-      - EUS1
-      - EUS2
-      - EUS3
-      - EUK1
-      - EUK2
+      - EHKT1
+      - EHKT2
+      - EHKT3
+      - EJPT1
+      - EJPT2
+      - EJPT3
+      - EJPT4
+      - EKRV1
+      - EKRV2
+      - ESGV1
+      - ESGV2
+      - ESGV3
+      - ESGV4
+      - EUSV1
+      - EUSV2
+      - EUSV3
+      - EUSV4
+      - WZJPH1
+      - WZJPH2
+      - WZJPH3
+      - WZJPH4
+      - WZKRH1
+      - WZKRH2
+      - WZKRH3
+      - WZKRH4
+      - WZSGH1
       - WZSGC1
       - WZSGC2
       - WZSGC3
@@ -370,8 +414,6 @@ proxy-groups:
       - WZHKC2
       - WZHKC3
       - WZHKC4
-      - WZUSC1
-      - WZUSC2
       - NVNS1(AndroidX)
       - NVNS2(AndroidX)
       - NTHS1(AndroidX)
@@ -386,8 +428,8 @@ proxy-groups:
       - WZHKF2
       - WZHKF3
       - WZHKF4
-      - WZSGF1
-      - WZSGF2
+      - WZKRF1
+      - WZKRF2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -410,24 +452,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - EHK1
-      - EHK2
-      - EHK3
-      - EJP1
-      - EJP2
-      - EJP3
-      - EJP4
-      - EKR1
-      - EKR2
-      - ESG1
-      - ESG2
-      - ESG3
-      - ESG4
-      - EUS1
-      - EUS2
-      - EUS3
-      - EUK1
-      - EUK2
+      - EHKT1
+      - EHKT2
+      - EHKT3
+      - EJPT1
+      - EJPT2
+      - EJPT3
+      - EJPT4
+      - EKRV1
+      - EKRV2
+      - ESGV1
+      - ESGV2
+      - ESGV3
+      - ESGV4
+      - EUSV1
+      - EUSV2
+      - EUSV3
+      - EUSV4
+      - WZJPH1
+      - WZJPH2
+      - WZJPH3
+      - WZJPH4
+      - WZKRH1
+      - WZKRH2
+      - WZKRH3
+      - WZKRH4
+      - WZSGH1
       - WZSGC1
       - WZSGC2
       - WZSGC3
@@ -442,8 +492,6 @@ proxy-groups:
       - WZHKC2
       - WZHKC3
       - WZHKC4
-      - WZUSC1
-      - WZUSC2
       - NVNS1(AndroidX)
       - NVNS2(AndroidX)
       - NTHS1(AndroidX)
@@ -458,8 +506,8 @@ proxy-groups:
       - WZHKF2
       - WZHKF3
       - WZHKF4
-      - WZSGF1
-      - WZSGF2
+      - WZKRF1
+      - WZKRF2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
