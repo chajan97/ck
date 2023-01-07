@@ -5,6 +5,14 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
+  - {"type":"vmess","name":"香港高速接入点-01","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"hk1.sanfen001.pics","port":"443","uuid":"6a1e943a-fb50-4b97-8389-e60795297d4d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港高速接入点-02","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"hk2.sanfen001.pics","port":"443","uuid":"6a1e943a-fb50-4b97-8389-e60795297d4d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港高速接入点-03","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"hk3.sanfen001.pics","port":"443","uuid":"6a1e943a-fb50-4b97-8389-e60795297d4d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港高速接入点-04","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"hk4.sanfen001.pics","port":"443","uuid":"6a1e943a-fb50-4b97-8389-e60795297d4d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"日本高速接入点-01","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"jp1.sanfen001.pics","port":"443","uuid":"6a1e943a-fb50-4b97-8389-e60795297d4d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"韩国高速接入点-01","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"kr1.sanfen001.pics","port":"443","uuid":"6a1e943a-fb50-4b97-8389-e60795297d4d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"韩国高速接入点-02","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"kr2.sanfen001.pics","port":"443","uuid":"6a1e943a-fb50-4b97-8389-e60795297d4d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"台北高级接入点-01","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"tw1.sanfen001.pics","port":"443","uuid":"6a1e943a-fb50-4b97-8389-e60795297d4d","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"EHK1","server":"dl-hk1.efyunpan.com","port":443,"password":"fd5a586e-e7a1-4fe8-90ed-0c858dee0632","udp":true,"skip-cert-verify":true,"sni":"data-hk.efyunpan.com","network":"tcp"}
   - {"type":"trojan","name":"EHK2","server":"dl-hk2.efyunpan.com","port":443,"password":"fd5a586e-e7a1-4fe8-90ed-0c858dee0632","udp":true,"skip-cert-verify":true,"sni":"data-hk.efyunpan.com","network":"tcp"}
   - {"type":"trojan","name":"EHK3","server":"dl-hk3.efyunpan.com","port":443,"password":"fd5a586e-e7a1-4fe8-90ed-0c858dee0632","udp":true,"skip-cert-verify":true,"sni":"data-hk.efyunpan.com","network":"tcp"}
@@ -42,42 +50,20 @@ proxies:
   - {"type":"vmess","name":"WZTWF1","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"tw1.sanfen001.pics","port":"443","uuid":"7fca614a-7266-442c-aae0-110728f597c9","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"WZHKF3","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"hk11.sanfen001.pics","port":"2001","uuid":"7fca614a-7266-442c-aae0-110728f597c9","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"WZHKF4","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"hk12.sanfen001.pics","port":"2001","uuid":"7fca614a-7266-442c-aae0-110728f597c9","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"WZHKF5","ws-opts":{"path":"/zh-cn/","headers":{"host":"www.baidu.com"}},"server":"hk80-2.sanfen001.pics","port":"80","uuid":"7fca614a-7266-442c-aae0-110728f597c9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"WZHKF6","server":"9bdc7f3764a60fb0.sanfen001.pics","port":17525,"cipher":"chacha20-ietf-poly1305","password":"7fca614a-7266-442c-aae0-110728f597c9"}
-  - {"type":"vmess","name":"WZKRF1","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"kr1.sanfen001.pics","port":"443","uuid":"7fca614a-7266-442c-aae0-110728f597c9","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"WZKRF2","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}},"server":"kr2.sanfen001.pics","port":"443","uuid":"7fca614a-7266-442c-aae0-110728f597c9","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"WZJP1","server":"03rb.mealstream.xyz","port":"15403","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZJP2","server":"04rb.mealstream.xyz","port":"15504","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZJP3","server":"05rb.mealstream.xyz","port":"15305","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZJP4","server":"06rb.mealstream.xyz","port":"15206","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZJP5","server":"09rb.mealstream.xyz","port":"443","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZJP6","server":"10rb.mealstream.xyz","port":"443","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZJP7","server":"18rb.mealstream.xyz","port":"16818","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZJP8","server":"26rb.mealstream.xyz","port":"16826","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZIN1","server":"20yd.mealstream.xyz","port":"443","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZDE1","server":"22dg.mealstream.xyz","port":"15422","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZCA1","server":"23jnd.mealstream.xyz","port":"15523","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZUS2","server":"27mg.mealstream.xyz","port":"443","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZAU2","server":"28adly.mealstream.xyz","port":"15928","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZHK1","server":"29xg.mealstream.xyz","port":"443","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZHK2","server":"29xg.mealstream.xyz","port":"15030","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZKR1","server":"08hg.mealstream.xyz","port":"443","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"WZKR2","server":"01hg.mealstream.xyz","port":"15201","uuid":"cb3bafd7-3b61-457b-b872-7e919806c75b","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"JPV2","server":"jp12.baf1.sbs","port":"8886","uuid":"bdc95cfe-a5be-4112-a29a-92ba2def4ae9","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"JPV5","server":"jp18.baf1.sbs","port":"4443","uuid":"bdc95cfe-a5be-4112-a29a-92ba2def4ae9","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"JPV6","server":"jp19.baf1.sbs","port":"6633","uuid":"bdc95cfe-a5be-4112-a29a-92ba2def4ae9","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"USV1","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"tlu.dl.delivery.mp.microsoft.com"}},"server":"us1.baf1.sbs","port":"11217","uuid":"bdc95cfe-a5be-4112-a29a-92ba2def4ae9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"GBV1","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"tlu.dl.delivery.mp.microsoft.com"}},"server":"gb1.baf1.sbs","port":"11217","uuid":"bdc95cfe-a5be-4112-a29a-92ba2def4ae9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"GBV2","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"tlu.dl.delivery.mp.microsoft.com"}},"server":"138.68.179.172","port":"11231","uuid":"bdc95cfe-a5be-4112-a29a-92ba2def4ae9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"INV2","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"tlu.dl.delivery.mp.microsoft.com"}},"server":"in2.baf1.sbs","port":"11217","uuid":"bdc95cfe-a5be-4112-a29a-92ba2def4ae9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"DEV1","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"tlu.dl.delivery.mp.microsoft.com"}},"server":"de1.baf1.sbs","port":"11217","uuid":"bdc95cfe-a5be-4112-a29a-92ba2def4ae9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"CAV1","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"tlu.dl.delivery.mp.microsoft.com"}},"server":"ca1.baf1.sbs","port":"11217","uuid":"bdc95cfe-a5be-4112-a29a-92ba2def4ae9","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 香港高速接入点-01
+      - 香港高速接入点-02
+      - 香港高速接入点-03
+      - 香港高速接入点-04
+      - 日本高速接入点-01
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 台北高级接入点-01
       - EHK1
       - EHK2
       - EHK3
@@ -115,42 +101,20 @@ proxy-groups:
       - WZTWF1
       - WZHKF3
       - WZHKF4
-      - WZHKF5
-      - WZHKF6
-      - WZKRF1
-      - WZKRF2
-      - WZJP1
-      - WZJP2
-      - WZJP3
-      - WZJP4
-      - WZJP5
-      - WZJP6
-      - WZJP7
-      - WZJP8
-      - WZIN1
-      - WZDE1
-      - WZCA1
-      - WZUS2
-      - WZAU2
-      - WZHK1
-      - WZHK2
-      - WZKR1
-      - WZKR2
-      - JPV2
-      - JPV5
-      - JPV6
-      - USV1
-      - GBV1
-      - GBV2
-      - INV2
-      - DEV1
-      - CAV1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 香港高速接入点-01
+      - 香港高速接入点-02
+      - 香港高速接入点-03
+      - 香港高速接入点-04
+      - 日本高速接入点-01
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 台北高级接入点-01
       - EHK1
       - EHK2
       - EHK3
@@ -188,42 +152,20 @@ proxy-groups:
       - WZTWF1
       - WZHKF3
       - WZHKF4
-      - WZHKF5
-      - WZHKF6
-      - WZKRF1
-      - WZKRF2
-      - WZJP1
-      - WZJP2
-      - WZJP3
-      - WZJP4
-      - WZJP5
-      - WZJP6
-      - WZJP7
-      - WZJP8
-      - WZIN1
-      - WZDE1
-      - WZCA1
-      - WZUS2
-      - WZAU2
-      - WZHK1
-      - WZHK2
-      - WZKR1
-      - WZKR2
-      - JPV2
-      - JPV5
-      - JPV6
-      - USV1
-      - GBV1
-      - GBV2
-      - INV2
-      - DEV1
-      - CAV1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 香港高速接入点-01
+      - 香港高速接入点-02
+      - 香港高速接入点-03
+      - 香港高速接入点-04
+      - 日本高速接入点-01
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 台北高级接入点-01
       - EHK1
       - EHK2
       - EHK3
@@ -261,41 +203,19 @@ proxy-groups:
       - WZTWF1
       - WZHKF3
       - WZHKF4
-      - WZHKF5
-      - WZHKF6
-      - WZKRF1
-      - WZKRF2
-      - WZJP1
-      - WZJP2
-      - WZJP3
-      - WZJP4
-      - WZJP5
-      - WZJP6
-      - WZJP7
-      - WZJP8
-      - WZIN1
-      - WZDE1
-      - WZCA1
-      - WZUS2
-      - WZAU2
-      - WZHK1
-      - WZHK2
-      - WZKR1
-      - WZKR2
-      - JPV2
-      - JPV5
-      - JPV6
-      - USV1
-      - GBV1
-      - GBV2
-      - INV2
-      - DEV1
-      - CAV1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 香港高速接入点-01
+      - 香港高速接入点-02
+      - 香港高速接入点-03
+      - 香港高速接入点-04
+      - 日本高速接入点-01
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 台北高级接入点-01
       - EHK1
       - EHK2
       - EHK3
@@ -333,41 +253,19 @@ proxy-groups:
       - WZTWF1
       - WZHKF3
       - WZHKF4
-      - WZHKF5
-      - WZHKF6
-      - WZKRF1
-      - WZKRF2
-      - WZJP1
-      - WZJP2
-      - WZJP3
-      - WZJP4
-      - WZJP5
-      - WZJP6
-      - WZJP7
-      - WZJP8
-      - WZIN1
-      - WZDE1
-      - WZCA1
-      - WZUS2
-      - WZAU2
-      - WZHK1
-      - WZHK2
-      - WZKR1
-      - WZKR2
-      - JPV2
-      - JPV5
-      - JPV6
-      - USV1
-      - GBV1
-      - GBV2
-      - INV2
-      - DEV1
-      - CAV1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 香港高速接入点-01
+      - 香港高速接入点-02
+      - 香港高速接入点-03
+      - 香港高速接入点-04
+      - 日本高速接入点-01
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 台北高级接入点-01
       - EHK1
       - EHK2
       - EHK3
@@ -405,41 +303,19 @@ proxy-groups:
       - WZTWF1
       - WZHKF3
       - WZHKF4
-      - WZHKF5
-      - WZHKF6
-      - WZKRF1
-      - WZKRF2
-      - WZJP1
-      - WZJP2
-      - WZJP3
-      - WZJP4
-      - WZJP5
-      - WZJP6
-      - WZJP7
-      - WZJP8
-      - WZIN1
-      - WZDE1
-      - WZCA1
-      - WZUS2
-      - WZAU2
-      - WZHK1
-      - WZHK2
-      - WZKR1
-      - WZKR2
-      - JPV2
-      - JPV5
-      - JPV6
-      - USV1
-      - GBV1
-      - GBV2
-      - INV2
-      - DEV1
-      - CAV1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 香港高速接入点-01
+      - 香港高速接入点-02
+      - 香港高速接入点-03
+      - 香港高速接入点-04
+      - 日本高速接入点-01
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 台北高级接入点-01
       - EHK1
       - EHK2
       - EHK3
@@ -477,36 +353,6 @@ proxy-groups:
       - WZTWF1
       - WZHKF3
       - WZHKF4
-      - WZHKF5
-      - WZHKF6
-      - WZKRF1
-      - WZKRF2
-      - WZJP1
-      - WZJP2
-      - WZJP3
-      - WZJP4
-      - WZJP5
-      - WZJP6
-      - WZJP7
-      - WZJP8
-      - WZIN1
-      - WZDE1
-      - WZCA1
-      - WZUS2
-      - WZAU2
-      - WZHK1
-      - WZHK2
-      - WZKR1
-      - WZKR2
-      - JPV2
-      - JPV5
-      - JPV6
-      - USV1
-      - GBV1
-      - GBV2
-      - INV2
-      - DEV1
-      - CAV1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -529,6 +375,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 香港高速接入点-01
+      - 香港高速接入点-02
+      - 香港高速接入点-03
+      - 香港高速接入点-04
+      - 日本高速接入点-01
+      - 韩国高速接入点-01
+      - 韩国高速接入点-02
+      - 台北高级接入点-01
       - EHK1
       - EHK2
       - EHK3
@@ -566,36 +420,6 @@ proxy-groups:
       - WZTWF1
       - WZHKF3
       - WZHKF4
-      - WZHKF5
-      - WZHKF6
-      - WZKRF1
-      - WZKRF2
-      - WZJP1
-      - WZJP2
-      - WZJP3
-      - WZJP4
-      - WZJP5
-      - WZJP6
-      - WZJP7
-      - WZJP8
-      - WZIN1
-      - WZDE1
-      - WZCA1
-      - WZUS2
-      - WZAU2
-      - WZHK1
-      - WZHK2
-      - WZKR1
-      - WZKR2
-      - JPV2
-      - JPV5
-      - JPV6
-      - USV1
-      - GBV1
-      - GBV2
-      - INV2
-      - DEV1
-      - CAV1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
